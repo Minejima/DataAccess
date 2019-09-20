@@ -1,0 +1,6 @@
+C:\Users\i32002\source\repos\TokatsuUtility\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\i32002\source\repos\TokatsuUtility\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\i32002\source\repos\TokatsuUtility\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\i32002\source\repos\TokatsuUtility\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\i32002\source\repos\TokatsuUtility\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\i32002\source\repos\TokatsuUtility\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
