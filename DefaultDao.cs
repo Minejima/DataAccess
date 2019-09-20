@@ -75,7 +75,8 @@ namespace DataAccess {
 
         public virtual int ExecuteCommand(string command) {
             try {
-                _trans = CreateTransaction(_conn);
+                if (_trans == null)
+                    _trans = CreateTransaction(_conn);
                 var cnt = _conn.Execute(command, _parameters, _trans);
                 _count += cnt;
                 return cnt;
@@ -89,7 +90,8 @@ namespace DataAccess {
 
         public virtual async Task<int> ExecuteCommandAsync(string command) {
             try {
-                _trans = CreateTransaction(_conn);
+                if(_trans == null)
+                    _trans = CreateTransaction(_conn);
                 var cnt = await _conn.ExecuteAsync(command, _parameters, _trans);
                 _count += cnt;
                 return cnt;
